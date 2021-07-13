@@ -1,0 +1,270 @@
+body {
+	background-color: #660033;
+}
+.navbar {
+	background-color: #ffffff;
+}
+#restaurantlogo {
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+#restaurantname a {
+	text-decoration: none;
+}
+#restaurantname h1 {
+	font-family: 'Dancing Script', cursive;
+	color: #f6b319;
+	font-size: 55px;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+#restaurantname span {
+	position: relative;
+	top: 13px;
+	padding-left: 5px;
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+#navbarNav a {
+	color: #33ccff;
+	font-weight: bold;
+}
+#navbarNav a:hover {
+	background-color: #660033;
+	color: #ffffff;
+}
+#phonenumber {
+	text-decoration: none;
+	padding: 8px;
+}
+#maincontent #menuheading {
+	color: #ffffff;
+	text-align: center;
+}
+.row {
+	width: 100%;
+	color: #ffffff;
+}
+.row img {
+	border: 1px solid #f6b319;
+}
+footer {
+	color: #ffffff;
+	background-color: #28283e;
+}
+footer p, h1 {
+	margin-bottom: 0;
+	text-align: center;
+}
+.row div {
+	margin-top: 15px;
+}
+
+/*media query for extra small devices*/
+@media (max-width: 575.98px) {
+	#restaurantname h1 {
+		font-size: 5vw;
+	}
+	#restaurantname span {
+		font-size: 2vw;
+	}
+	#navbarNav {
+		font-size: 12px;
+		text-align: center;
+	}
+	#phonenumbersm {
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	#phonenumbersm a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	#phonenumbersm a:hover {
+		color: #00ffff;
+	}
+	#hello {
+		position: relative;
+		top: -6px;
+	}
+	#phonenumbersm p {
+		color: #ffffff;
+	}
+	.material-icons.md-18 {
+		font-size: 24px;
+	}
+	#navbarNav {
+		margin-top: 3px;
+	}
+	#navbarNav a {
+		padding: 3px;
+	}
+	#maincontent #menuheading {
+	font-size: 25px;
+	}
+	.row img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		width: 200px;
+		height: 138px;
+	}
+	.row h2 {
+		font-size: 3vw;
+		text-align: center;
+	}
+	.row p {
+		font-size: 2vw;
+		text-align: center;
+	}
+	iframe {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.row div {
+		margin-bottom: 15px;
+	}
+}
+
+/*media query for small devices*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#restaurantname h1 {
+		font-size: 5vw;
+	}
+	#restaurantname span {
+		font-size: 2vw;
+	}
+	#navbarNav {
+		font-size: 12px;
+		text-align: center;
+	}
+	#phonenumbersm {
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	#phonenumbersm a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	#phonenumbersm a:hover {
+		color: #00ffff;
+	}
+	#hello {
+		position: relative;
+		top: -12px;
+	}
+	#phonenumbersm p {
+		color: #ffffff;
+	}
+	.material-icons.md-18 {
+		font-size: 36px;
+	}
+	#navbarNav {
+		margin-top: 3px;
+	}
+	#navbarNav a {
+		padding: 3px;
+	}
+	#maincontent #menuheading {
+	font-size: 25px;
+	}
+	.row h2 {
+		font-size: 3vw;
+		text-align: center;
+	}
+	.row p {
+		font-size: 2vw;
+		text-align: center;
+	}
+	.row div {
+		margin-bottom: 30px;
+	}
+	iframe {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+/*media query for medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	#restaurantname h1 {
+		font-size: 5vw;
+	}
+	#navbarNav {
+	position: relative;
+	top: 30px;
+	flex: unset;
+	}
+	.material-icons.md-18 {
+		font-size: 36px;
+	}
+	#navbarNav #homedelivery {
+		color: #006600;
+		font-size: 10px;
+	}
+	#maincontent #menuheading {
+	font-size: 40px;
+	}
+	.row h2 {
+		font-size: 20px;
+	}
+	.row p {
+		font-size: 13px;
+	}
+	.row div {
+		margin-bottom: 30px;
+	}
+}
+/*media query for large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	#navbarNav {
+		flex: unset;
+	}
+	#navbarNav {
+	position: relative;
+	top: 30px;
+	}
+	.material-icons.md-18 {
+		font-size: 36px;
+	}
+	#navbarNav #homedelivery {
+		color: #006600;
+	}
+	#maincontent #menuheading {
+	font-size: 50px;
+	}
+	.row div {
+		margin-bottom: 35px;
+	}
+	iframe {
+		width: 332px;
+		height: 306px;
+	}
+}
+/*media query for extra large devices*/
+@media (min-width: 1200px) {
+	#navbarNav {
+		flex: unset;
+	}
+	#navbarNav {
+	position: relative;
+	top: 30px;
+	}
+	.material-icons.md-18 {
+		font-size: 36px;
+	}
+	#navbarNav #homedelivery {
+		color: #006600;
+	}
+	#maincontent #menuheading {
+	font-size: 50px;
+	}
+	.row div {
+		margin-bottom: 35px;
+	}
+}
