@@ -28,12 +28,24 @@ body {
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
 }
+@keyframes qualityassured {
+	0% {left: 0px; top: 0px;}
+	25% {left: 420px; top: 0px;}
+	50% {left: 0px; top: 0px;}
+	75% {left: 420px; top: 0px;}
+	100% {left: 0px; top: 0px;}
+}
 #restaurantname span {
 	position: relative;
 	top: 13px;
 	padding-left: 5px;
 	font-family: sans-serif;
 	font-size: 12px;
+	animation-name: qualityassured;
+	animation-delay: -2s;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
 
 }
 #navbarNav a {
