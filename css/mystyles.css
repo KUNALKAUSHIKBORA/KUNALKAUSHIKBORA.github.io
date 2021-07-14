@@ -12,12 +12,21 @@ body {
 #restaurantname a {
 	text-decoration: none;
 }
+@keyframes nametag {
+	0%   {color: #f6b319;}
+ 	25%  {color: #00ffff;}
+  	50%  {color: #ff33cc;}
+  	100% {color: #ffff00;}
+}
 #restaurantname h1 {
 	font-family: 'Dancing Script', cursive;
 	color: #f6b319;
 	font-size: 55px;
 	font-weight: 600;
 	margin-bottom: 0;
+	animation-name: nametag;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
 }
 #restaurantname span {
 	position: relative;
