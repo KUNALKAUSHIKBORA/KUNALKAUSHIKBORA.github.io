@@ -13,10 +13,17 @@ body {
 	text-decoration: none;
 }
 @keyframes nametag {
-	0%   {color: #f6b319;}
- 	25%  {color: #00ffff;}
-  	50%  {color: #ff33cc;}
-  	100% {color: #ffff00;}
+	0%   {color: #ED0A3F;}
+ 	10%  {color: #FD0E35;}
+  	20%  {color: #C62D42;}
+  	30% {color: #C32148;}
+	40%  {color: #D92121;}
+  	50%  {color: #FF5349;}
+  	60% {color: #DA2C43;}
+	70% {color: #C32148;}
+	80%  {color: #FF5050;}
+  	90%  {color: #E30B5C;}
+  	100% {color: #A50B5E;}
 }
 #restaurantname h1 {
 	font-family: 'Dancing Script', cursive;
